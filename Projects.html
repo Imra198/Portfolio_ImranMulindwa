@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imran Mulindwa | Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!--SEO-->
+    <meta name="description" content="Explore University-based projects created by Imran Mulindwa, including Java, Python, IoT, and Flutter applications.">
+    <meta name="keywords" content="Imran Mulindwa, projects, Java, Python, IoT, Flutter, game development, portfolio">
+    <meta name="author" content="Imran Mulindwa">
+</head>
+<body class="projects-page">
+
+    <!-- Navigation -->
+    <header id="header-placeholder"></header>
+
+    <main class="container">
+        <h1>Projects & Portfolio</h1>
+
+        <!-- Summary Section -->
+        <section class="chapter-section summary">
+            <h2>Summary</h2>
+            <p>
+                This portfolio highlights a range of projects developed during my university studies and independent learning.
+                The collection includes a <strong>Java-based puzzle game</strong> showcasing object-oriented programming and UI design,
+                an <strong>IoT classroom monitoring system</strong> focused on hardware integration and data communication,
+                and several <strong>Python applications</strong> that emphasize logic building and problem-solving.
+                Together, these projects demonstrate my ability to design and implement solutions across software and embedded systems —
+                reflecting strong technical foundations, creativity, and a commitment to continuous improvement.
+            </p>
+        </section>
+
+        <section class="chapter-section cv-section">
+            <h2>My CV</h2>
+            <p>You can download my latest CV to review my skills and experience.</p>
+            <a href="files/Imran Mulindwa.pdf" download class="btn-primary">
+                <i class="fa-solid fa-download"></i> Download CV
+            </a>
+        </section>
+
+
+
+        <!-- Projects Section -->
+       
+        <section class="chapter-section project-cards">
+            
+            <!-- Project 1 -->
+            <div class="project-card"> 
+                <img src="images/BrainTeaser.png" alt="Brain Teaser Puzzle Game screenshot" class="project-image">
+                <div class="project-content">
+
+                    <h2>Brain Teaser Puzzle Game (Java Swing)</h2>
+                    <p>
+                        A desktop jigsaw puzzle game with interactive drag-and-drop and rotation mechanics.
+                        Users can select custom images, adjust difficulty, and track their progress in real time.
+                        This project demonstrates problem-solving, UI design, and object-oriented programming principles.
+                    </p>
+
+                    <!-- Read More Button -->
+                    <button class="btn-secondary read-more-btn">Read More</button>
+                    
+                    <!-- Hidden Detailed Content -->
+                    <div class="project-details" style="display: none;">
+
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Drag-and-drop puzzle pieces with rotation functionality</li>
+                            <li>Multiple difficulty levels with scalable grids</li>
+                            <li>Ensures puzzles are solvable using inversion logic</li>
+                            <li>Custom image selection via file chooser</li>
+                            <li>Real-time move counter and timer with completion feedback</li>
+                        </ul>
+
+                        <h3>Skills Demonstrated</h3>
+                        <ul>
+                            <li>Java & Swing GUI development</li>
+                            <li>Object-Oriented Programming (OOP)</li>
+                            <li>Interactive user interface design</li>
+                            <li>Problem-solving and algorithm implementation</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/Imra198/BrainTeaserPuzzleGame" target="_blank" class="btn-primary">
+                            <i class="fa-brands fa-github"></i> Explore Code
+                        </a>
+                        <a href="https://youtu.be/lbDwKR8Yjuc" target="_blank" class="btn-secondary">
+                            <i class="fa-solid fa-play-circle"></i> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="images/IoT_Room_Tempreature_Code.png" alt="IoT code image" class="project-image code-image">
+                <div class="project-content">
+                    <h2>IoT Classroom Monitoring System</h2>
+                    <p>Smart classroom temperature and time system using Arduino, DHT11, RTC, and LCD for real-time monitoring and display.</p>
+                    
+                    <!-- Read More Button -->
+                    <button class="btn-secondary read-more-btn">Read More</button>
+
+                    <!-- Hidden Detailed Content -->
+                    <div class="project-details" style="display: none;">
+
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Real-time temperature display with LCD integration</li>
+                            <li>Accurate timekeeping using DS1307 RTC module</li>
+                            <li>LED indicators to signal temperature thresholds</li>
+                            <li>Audible alerts using a passive buzzer for unsafe temperatures</li>
+                            <li>Stable performance using regulated hardware components</li>
+                        </ul>
+                        
+                        <h3>Skills & Technologies Used</h3>
+                        <ul class = "skills-grid">
+                            <li>Arduino programming with C/C++</li>
+                            <li>Sensor integration (DHT11 for temperature, DS1307 for RTC)</li>
+                            <li>Hardware interfacing and circuit design</li>
+                            <li>Real-time data monitoring and alert systems</li>
+                        </ul>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/Imra198/Smart-Classroom-Temperature--Time--System-Project" target="_blank" class="btn-primary">
+                            <i class="fa-brands fa-github"></i> Explore Code
+                        </a>
+                        <a href="https://youtu.be/xDp-aw9OVA8" target="_blank" class="btn-secondary">
+                            <i class="fa-solid fa-play-circle"></i> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="images/antepenultimatePatch.png" alt="Patchwork pattern generated using antepenultimatePatch function">
+                            <figcaption>antepenultimatePatch output</figcaption>
+                <div class="project-content">
+                    <h2>Patchwork Image Generator (Python)</h2>
+                    <p>
+                        A Python-based graphics program that generates colorful patchwork patterns using 
+                        custom algorithms. Designed to demonstrate geometric reasoning, modular programming, 
+                        and dynamic shape rendering with the <code>graphics.py</code> library.
+                    </p>
+
+                    <!-- Read More Button -->
+                    <button class="btn-secondary read-more-btn">Read More</button>
+
+                    <!-- Hidden Detailed Content -->
+                    <div class="project-details" style="display: none;">
+                    
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Algorithmic patch generation using nested loops and geometric rules</li>
+                            <li>User-defined colors and layout customization</li>
+                            <li>Reusable modular functions for scalable image creation</li>
+                            <li>Precision drawing using coordinate calculations</li>
+                        </ul>
+
+                        <h3>Skills Used</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Algorithmic & logical problem-solving</li>
+                            <li>Graphics programming</li>
+                            <li>Modular function design</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/Imra198/Python-Project" target="_blank" class="btn-primary">
+                            <i class="fa-brands fa-github"></i> Explore Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img src="images/FlutterGame.png" alt="Interactive Decision-Based Adventure Game Flutter" class="project-image">
+                <div class="project-content">
+                    <h2>Interactive Decision-Based Adventure Game (Flutter & Hive)</h2>
+                    
+                    <p>
+                        A mobile storytelling game where players make branching decisions that influence 
+                        the story outcome. Demonstrates dynamic UI design, data persistence, and audio integration 
+                        for an immersive experience.
+                    </p>
+
+                    <!-- Read More Button -->
+                    <button class="btn-secondary read-more-btn">Read More</button>
+
+                    <!-- Hidden Detailed Content -->
+                    <div class="project-details" style="display: none;">
+                    
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Branching storylines with multiple endings</li>
+                            <li>Persistent data storage using Hive database</li>
+                            <li>Audio-enhanced choices for interactive gameplay</li>
+                            <li>CSV-driven story progression for easy updates</li>
+                        </ul>
+
+                        <h3>Skills Demonstrated</h3>
+
+                        <ul>
+                            <li>Flutter & Dart development</li>
+                            <li>UI/UX design for mobile interfaces</li>
+                            <li>Data persistence & state management</li>
+                            <li>Interactive storytelling and game logic</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-buttons">
+                        <a href="https://github.com/Imra198/Flutter_coursework_decision" target="_blank" class="btn-primary">
+                            <i class="fa-brands fa-github"></i> Explore Code
+                        </a>
+                        <a href="https://youtu.be/Zt1uusiteJY" target="_blank" class="btn-secondary">
+                            <i class="fa-solid fa-play-circle"></i> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section> 
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer-placeholder"></footer>
+    <script src="script.js"></script>
+    
+        
+</body>
+</html>
